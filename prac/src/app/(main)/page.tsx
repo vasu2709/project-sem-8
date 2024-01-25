@@ -8,7 +8,7 @@ import WhyChooseUs from "@/containers/WhyChooseUs"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "LUSTRIA",
+  title: "Plantopia",
   description: "",
 }
 

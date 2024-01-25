@@ -8,7 +8,7 @@ import React from "react"
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: "About our Bea Ypu",
+  description: "About our Plantopia",
 }
 
 const page = () => {

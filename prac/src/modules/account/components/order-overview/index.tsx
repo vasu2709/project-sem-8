@@ -48,7 +48,7 @@ const OrderOverview = () => {
       </p>
       <div className="mt-4">
         <Link href="/products" passHref>
-          <Button variant="fill" color="green" className="!">
+          <Button variant="checkout" color="green" className="!">
             Continue shopping
           </Button>
         </Link>

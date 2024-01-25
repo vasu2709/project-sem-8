@@ -23,7 +23,7 @@ const ComingSoon = (props: Props) => {
         <div className="flex text-center py-2 justify-center ">
           <div className=" ">
             <Link href="/">
-              <Image src={logo} alt="logo" className="block  object-cover" />
+              <p className="text-6xl text-white font-bold">Plantopia</p>
             </Link>
           </div>
         </div>

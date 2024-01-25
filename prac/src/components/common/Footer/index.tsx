@@ -66,7 +66,7 @@ const Footer = (props: Props) => {
         <div className="flex flex-col  gap-0 items-start  md:flex-row">
           <div className="grid grid-cols-1 w-full lg:gap-6 md:grid-cols-4">
             <div className="py-5">
-              <Image src={logo} alt="logo" />
+              <p className="text-5xl text-white">Plantopia</p>
             </div>
             {contactDetails.map((contact, index) => {
               const Icon = contact.svg
@@ -103,7 +103,7 @@ const Footer = (props: Props) => {
         {/* <div style={{height: '1px', background: 'linear-gradient(90deg, #292929 2%, white 2%, white 98%, #292929 9%)'}}></div><br /> */}
         <hr className="border-none h-[1px] bg-slate-400" />
         <p className="pt-4 pb-4 text-center text-xl text-stone-200">
-          © 2024 Your <Link href='/ourteam' className="hover:text-greenDark-50 text-xl duration-300 "> Galacit Bits</Link>. All rights reserved.
+          © 2024 Your <Link href='/ourteam' className="hover:text-greenDark-50 text-xl duration-300 "> Plantopia</Link>. All rights reserved.
         </p>
       </div>
     </section>

@@ -15,7 +15,8 @@ const DesktopNav = ({ data }: { data: NavLinksType }) => {
       <MobileNav data={data} />
 
       <Link href={"/"} className={style.logoWrapper}>
-        <Image src={logo} alt="logo" />
+        {/* <Image src={logo} alt="logo" /> */}
+        <p className="text-4xl font-bold">Plantopia</p>
       </Link>
       {/* <div className={clsx(style.contentWrapper, { group: true })}> */}
       <div className={style.contentWrapper}>

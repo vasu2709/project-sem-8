@@ -26,7 +26,7 @@ const About = (props: Props) => {
           </div>
           <div className="p-2 text-left gap-2 flex flex-col lg:w-1/2 md:pt-4 ">
             <p className="text-3xl sm:pt-10 text-greenDark-50 pb-4 ">
-              Welcome to Lustria
+              Welcome to Plantopia
             </p>
             <p className="text-heading3 font-bold ">Our Journey to Dreams</p>
             <p className="text-[#777777]">
