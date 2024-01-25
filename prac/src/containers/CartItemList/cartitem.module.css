@@ -1,0 +1,3 @@
+.heading {
+    @apply px-2 py-3 text-xs w-[] font-medium uppercase tracking-wider text-black
+}

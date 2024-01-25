@@ -1,0 +1,4 @@
+.heading {
+  @apply text-center text-heading5 font-semibold mb-8;
+}
+

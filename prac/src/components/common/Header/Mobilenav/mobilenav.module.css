@@ -1,0 +1,181 @@
+.mobileNav {
+  @apply md:hidden flex items-center justify-between h-20 w-full;
+
+  &>.logoWrapper {
+    @apply flex items-center text-teal-300;
+    /* & .heading1 {
+      @apply text-white text-subtitle2 m-0;
+    }
+    & .heading2 {
+      @apply text-white opacity-40 text-subtitle2 m-0;
+    } */
+  }
+
+  &>.icons {
+    @apply flex gap-2 mr-2;
+  }
+}
+
+.menu-button {
+  @apply z-50 justify-start ml-0 w-20 bg-black h-20 mr-auto pl-2 lg:hidden flex flex-col gap-[0.22rem]
+}
+
+.bar {
+  position: relative;
+  display: block;
+  background-color: black;
+  width: 22px;
+  height: 2px;
+  /* padding-top: 3px; */
+  /* margin-bottom: 1px; */
+  padding: 1px;
+  border-radius: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.blurEffect {
+  @apply fixed inset-0 bg-black/30 backdrop-blur-md z-10;
+}
+
+.sideMenu {
+  @apply fixed inset-0 z-50 flex;
+
+  &>.dialogPanel {
+    @apply relative flex w-2/3 z-[-1] text-white bg-opacity-90 bg-[#222] flex-col overflow-y-scroll pb-4;
+
+    &>.container {
+      @apply flex flex-col opacity-100 px-4 gap-10;
+
+      &>.menuHeader {
+        @apply flex items-center justify-between h-20;
+
+        & .heading1 {
+          @apply text-white text-subtitle2 m-0;
+        }
+
+        & .heading2 {
+          @apply text-white opacity-40 text-subtitle2 m-0;
+        }
+      }
+
+      &>.navLinks {
+        @apply flex flex-col gap-8;
+
+        &>.link {
+          gap: 0.5rem;
+          padding: 0.5rem;
+          justify-content: center;
+          align-items: center;
+          transition: all 0.3s ease;
+          letter-spacing: 2px;
+          white-space: nowrap;
+          display: inline-flex;
+          position: relative;
+
+          &:hover {
+            color: #7fa15a;
+            transform: scale(1.05);
+          }
+
+          &::before,
+          &::after {
+            content: '';
+            box-sizing: border-box;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            transform-origin: center;
+          }
+
+          &::before {
+            border-bottom: 0.2em solid #7fa15a;
+            transform: scaleX(0);
+            transition: transform 650ms ease-in-out;
+          }
+
+          &:hover::before,
+          &:hover::after {
+            transform: scaleX(1);
+            transition: transform 650ms;
+          }
+        }
+      }
+
+    }
+  }
+}
+
+.active {
+  @apply !opacity-100;
+
+  &::before {
+    @apply !w-full;
+  }
+}
+
+
+/* .mobileNav {
+  @apply md:hidden flex items-center justify-between h-20 w-full;
+
+  & > .logoWrapper {
+    @apply flex items-center; */
+/* & .heading1 {
+      @apply text-white text-subtitle2 m-0;
+    }
+    & .heading2 {
+      @apply text-white opacity-40 text-subtitle2 m-0;
+    } */
+/* }
+  & > .icons {
+    @apply flex gap-4 mr-2;
+  }
+} */
+/* 
+.blurEffect {
+  @apply fixed inset-0 bg-black/30 backdrop-blur-md z-10;
+}
+
+.sideMenu {
+  @apply fixed inset-0 z-50 flex;
+  & > .dialogPanel {
+    @apply relative flex w-2/3 z-[-1] bg-green flex-col overflow-y-scroll pb-4;
+    & > .container {
+      @apply flex flex-col px-4 gap-10;
+      & > .menuHeader {
+        @apply flex items-center justify-between h-20 bg-green;
+        & .heading1 {
+          @apply text-white text-subtitle2 m-0;
+        }
+        & .heading2 {
+          @apply text-white opacity-40 text-subtitle2 m-0;
+        }
+      }
+      & > .navLinks {
+        @apply flex flex-col gap-8;
+        & > .link {
+          @apply relative text-white opacity-50 hover:opacity-100 w-max pb-1;
+
+          &::before {
+            content: "";
+            @apply absolute h-[3px] w-0 left-0 bottom-0 bg-yellow duration-300;
+          }
+
+          &:hover::before {
+            @apply w-full;
+          }
+        }
+      }
+    }
+  }
+}
+.active {
+  @apply !opacity-100;
+
+  &::before {
+    @apply !w-full;
+  }
+} */

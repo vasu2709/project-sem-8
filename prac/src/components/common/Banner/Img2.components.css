@@ -1,0 +1,109 @@
+/* * {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 1.5rem;
+}
+
+body {
+  perspective: 500px;
+} */
+
+@font-face {
+  font-family: "bambola";
+  /* src: url("CustomFont.eot"); */
+  src: url("../../../../public/fonts/Bambola-W00-Regular/Bambola-W00-Regular.ttf") format("ttf");
+  src: url("../../../../public/fonts/Bambola-W00-Regular/Bambola-W00-Regular.woff") format("woff");
+  src: url("../../../../public/fonts/Bambola-W00-Regular/Bambola-W00-Regular.woff2") format("woff2");
+
+  /* url("CustomFont.otf") format("opentype"),
+    url("CustomFont.svg#filename") format("svg"); */
+}
+
+.image-container {
+  position: relative;
+  /* height: 500px; */
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  transition: opacity 2s ease-in-out;
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+.line1 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  font-size: 20px;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.lineUp1 {
+  animation: 9s anim-lineUp ease-out infinite;
+  text-align: center;
+  padding: 16px;
+  margin: 0;
+  opacity: 0;
+  transform: translateY(80%);
+  transition: opacity 3s ease-in-out, transform 8.5s ease-in-out;
+}
+
+
+.line {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: 'bambola', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.lineUp {
+  animation: 9s anim-lineUp ease-out infinite;
+  text-align: center;
+  padding: 16px;
+  margin: 0;
+  opacity: 0;
+  transform: translateY(80%);
+  transition: opacity 3s ease-in-out, transform 9s ease-in-out;
+}
+
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+
+  20% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
