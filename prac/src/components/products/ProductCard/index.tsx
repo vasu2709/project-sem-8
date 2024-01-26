@@ -40,21 +40,16 @@ const shouldDisplayhot = (productId: string): boolean => {
 
 const ProductCard = ({
   product,
-}: // variant = 16,
-// itemsToShow = 16,
-// ...props
+}: 
 ProductTemplateProps) => {
-  // const limitedPlantData = productData.slice(
-  //   variant - 1,
-  //   variant - 1 + itemsToShow
-  // )
   return (
     <>
       {/* <p>{product.id}</p> */}
 
       <Link
         scroll={false}
-        href={`/products/${product?.handle}`}
+        // href={`/products/${product?.handle}`}
+        href="#"
         className={Styles.productImage}
       >
         {productData.slice(0, 1).map((plant, index) => (

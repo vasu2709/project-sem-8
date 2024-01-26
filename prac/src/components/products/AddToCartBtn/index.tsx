@@ -70,7 +70,7 @@ const AddToCartBtn = ({ type = "text", product }: Props) => {
         <Button
           variant="square"
           color="black"
-          onClick={handleAddToCart}
+          // onClick={handleAddToCart}
           disabled={!inStock || !variant || !!loading}
         >
           <span className="sr-only">add to card button</span>
@@ -88,7 +88,7 @@ const AddToCartBtn = ({ type = "text", product }: Props) => {
           type="submit"
           variant="shopallplants"
           color="green"
-          onClick={handleAddToCart}
+          // onClick={handleAddToCart}
           disabled={!inStock || !variant || !!loading}
         >
           <>

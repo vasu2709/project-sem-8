@@ -1,5 +1,4 @@
 import TitleBanner from "@/components/common/TitleBanner"
-import Shop from "@/containers/AANew/shop/shop/shop"
 import ProductCategory from "@/containers/ProductCategory"
 import ProductsBanner from "@/containers/ProductsBanner"
 import ProductsGrid from "@/containers/ProductsGrid"

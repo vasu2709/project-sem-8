@@ -25,14 +25,7 @@ const ProductOverview = ({ product }: ProductTemplateProps) => {
           <div className="h-max grid lg:grid-cols-2 grid-cols-1 gap-10  top-[100px]">
             <div className="flex items-start justify-between md:hidden">
               <h3 className="font-bold mb-4">{product.title}</h3>
-              {/* <Button
-                as="a"
-                href="/"
-                variant="checkout"
-                className="aspect-square px-2 py-2"
-              >
-                <Share className="w-6" />
-              </Button> */}
+              
 
               <ShareOpt variant="card">
                 <Share className="h-6" />
@@ -61,18 +54,7 @@ const ProductOverview = ({ product }: ProductTemplateProps) => {
         </section>
       </ProductProvider>
 
-      {/* <section className="grid md:grid-cols-2 gap-6">
-        <div className="flex flex-col gap-4">
-          <h5 className="pt-8">Reviews</h5>
-          {productReviews.map((review) => (
-            <ProductReviewCard key={review.id} data={review} />
-          ))}
-        </div>
-        <div>
-          <h5 className="py-8">Leave a Review</h5>
-          <ProductReviewForm />
-        </div>
-      </section> */}
+      
     </>
   )
 }
