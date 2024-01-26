@@ -127,7 +127,7 @@ export const homeGrid = [
 
 export const navbarData = {
 
-  heading1: "LUSTRIA",
+  heading1: "Plantopia",
   heading2: ".",
   navLinks: [
     {

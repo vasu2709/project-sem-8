@@ -5,9 +5,6 @@ import AccountBtn from "../AccountBtn"
 import CartBtn from "../CartBtn"
 import MobileNav from "../Mobilenav"
 import NavLinks from "../NavLinks"
-import Image from "next/image"
-import logo from "@/public/images/logo.png"
-import clsx from "clsx"
 
 const DesktopNav = ({ data }: { data: NavLinksType }) => {
   return (
@@ -15,10 +12,8 @@ const DesktopNav = ({ data }: { data: NavLinksType }) => {
       <MobileNav data={data} />
 
       <Link href={"/"} className={style.logoWrapper}>
-        {/* <Image src={logo} alt="logo" /> */}
         <p className="text-4xl font-bold">Plantopia</p>
       </Link>
-      {/* <div className={clsx(style.contentWrapper, { group: true })}> */}
       <div className={style.contentWrapper}>
         <NavLinks links={data} />
 

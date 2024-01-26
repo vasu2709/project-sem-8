@@ -75,11 +75,11 @@ const AccountBtn = () => {
     )
   } else {
     return (
-      <Link href={"/login"} scroll={false} className="text-white relative">
+      <Link href={"/#"} scroll={false} className="text-white relative">
         <UserIcon className="h-5" />
-        <span className="absolute bottom-0 right-0 bg-greenDark-50 rounded-full text-white w-full aspect-square text-[12px] m-0 flex items-center justify-center translate-x-1/2 translate-y-1/3">
+        {/* <span className="absolute bottom-0 right-0 bg-greenDark-50 rounded-full text-white w-full aspect-square text-[12px] m-0 flex items-center justify-center translate-x-1/2 translate-y-1/3">
           <LockIcon className="w-4 " />
-        </span>
+        </span> */}
       </Link>
     )
   }
