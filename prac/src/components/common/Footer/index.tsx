@@ -63,18 +63,9 @@ const Footer = (props: Props) => {
             })}
           </div>
 
-          {/* {contactDetails.map((contact, index) => (
-            
-          <>
-            <div className="flex md:w-1/4 mb-2 p-[0.5rem] py-6  lg:gap-3 gap-1">
-              <div className="">{contact.icon}</div>
-              <div className="text-greenDark-50">{contact.name}</div>
-            </div>
-          </>
-        ))} */}
+          
         </div>
 
-        {/* <div style={{height: '1px', background: 'linear-gradient(90deg, #292929 2%, white 2%, white 98%, #292929 9%)'}}></div><br /> */}
         <hr className="border-none h-[1px] bg-slate-400" />
         <p className="pt-4 pb-4 text-center text-xl text-stone-200">
           © 2024 Your <Link href='/about-us' className="hover:text-greenDark-50 text-xl duration-300 "> Plantopia</Link>. All rights reserved.

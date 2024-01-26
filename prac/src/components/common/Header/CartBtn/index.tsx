@@ -13,9 +13,9 @@ const CartBtn = (props: Props) => {
     <Link href={"/checkout"} scroll={false} className="relative">
       <span className="sr-only">go to cart button</span>
       <CartIcon className="h-5 text-black" />
-      <span className="absolute top-0 right-0 bg-offwhite rounded-full w-full aspect-square text-[12px] m-0 flex items-center justify-center translate-x-1/2 -translate-y-1/2">
+      {/* <span className="absolute top-0 right-0 bg-offwhite rounded-full w-full aspect-square text-[12px] m-0 flex items-center justify-center translate-x-1/2 -translate-y-1/2">
         {totalItems}
-      </span>
+      </span> */}
     </Link>
   )
 }
