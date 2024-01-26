@@ -1,3 +1,4 @@
+import LoginPage from "@/containers/AANew/login/sign-in"
 import LoginTemplate from "@/modules/account/templates/login-template"
 import { Metadata } from "next"
 
@@ -7,5 +8,6 @@ export const metadata: Metadata = {
 }
 
 export default function Login() {
-  return <LoginTemplate />
+  // return <LoginTemplate />
+  return <LoginPage/>
 }

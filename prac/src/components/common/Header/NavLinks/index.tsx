@@ -37,6 +37,7 @@ const NavLinks = ({ links }: { links: NavLinksType }) => {
           )
         })}
     </div>
+    
   )
 }
 

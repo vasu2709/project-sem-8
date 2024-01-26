@@ -12,32 +12,6 @@ const Footer = (props: Props) => {
   return (
     <section className="bg-[#292929] pb-4 items-center">
       <div className="">
-        {/* <div>
-        <div>
-          <p>Subscribe us</p>
-          <div className="flex">
-            <p>can we get in touch closer</p>
-            <Input placeholder="YOUR EMAIL ADDRESS"></Input>
-            <Button variant="subscribe">SUbscribe us</Button>
-          </div>
-        </div>
-        <div>
-          <Logo></Logo>
-          
-          <div className="flex">
-            <div>
-              <Icon />
-            </div>
-            <div>
-              <p>field</p>
-              <p>ddescription</p>
-            </div>
-          </div>
-        </div>
-        <div>
-          <p>© 2023 Your Galacit Bits. All rights reserved.</p>
-        </div>
-      </div> */}
 
         {/* <Footer1 /> */}
         <div className="flex flex-col md:flex-col lg:flex-row py-6">
@@ -103,7 +77,7 @@ const Footer = (props: Props) => {
         {/* <div style={{height: '1px', background: 'linear-gradient(90deg, #292929 2%, white 2%, white 98%, #292929 9%)'}}></div><br /> */}
         <hr className="border-none h-[1px] bg-slate-400" />
         <p className="pt-4 pb-4 text-center text-xl text-stone-200">
-          © 2024 Your <Link href='/ourteam' className="hover:text-greenDark-50 text-xl duration-300 "> Plantopia</Link>. All rights reserved.
+          © 2024 Your <Link href='/about-us' className="hover:text-greenDark-50 text-xl duration-300 "> Plantopia</Link>. All rights reserved.
         </p>
       </div>
     </section>
