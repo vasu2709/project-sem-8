@@ -7,7 +7,7 @@ interface CountdownProps {
 }
 
 const HomeCountDown: React.FC<CountdownProps> = ({
-  targetDate = "2024-01-23",
+  targetDate = "2024-01-29",
 }) => {
   const calculateTimeRemaining = () => {
     const targetTime = new Date(targetDate).getTime()
