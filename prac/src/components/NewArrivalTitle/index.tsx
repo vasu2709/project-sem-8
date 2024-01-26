@@ -20,14 +20,14 @@ const Newarrival = (props: Props) => {
   return (
     <div className="">
       <div>
-        <ul className="gap-0 flex justify-center transition-all text-4xl px-4 pt-8 pb-16">
+        <ul className="gap-0 flex  justify-center transition-all text-4xl px-4 pt-8 pb-16">
           <li
-            className={`border-r-4 pr-5 md:px-10 ${
+            className={`border-r-4 pr-5  md:px-10 ${
               activeTab === "All Plants" ? "active" : ""
             }`}
           >
             <a
-              className={`text-[#ABABAB] hover:text-black font-bold text-3xl md:text-4xl focus:text-black`}
+              className={`text-[#ABABAB] hover:text-black hover:cursor-pointer font-bold text-3xl md:text-4xl focus:text-black`}
               onClick={() => handleTabClick("All Plants")}
             >
               All Plants
@@ -39,7 +39,7 @@ const Newarrival = (props: Props) => {
             }`}
           >
             <a
-              className={`text-[#ABABAB] hover:text-black font-bold md:text-4xl focus:text-black`}
+              className={`text-[#ABABAB] hover:text-black hover:cursor-pointer font-bold md:text-4xl focus:text-black`}
               onClick={() => handleTabClick("New Arrival")}
             >
               New Arrival
@@ -51,7 +51,7 @@ const Newarrival = (props: Props) => {
             }`}
           >
             <a
-              className={`text-[#ABABAB] hover:text-black font-bold md:text-4xl focus:text-black`}
+              className={`text-[#ABABAB] hover:text-black hover:cursor-pointer font-bold md:text-4xl focus:text-black`}
               onClick={() => handleTabClick("Sale")}
             >
               Sale
