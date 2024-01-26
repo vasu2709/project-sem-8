@@ -1,0 +1,62 @@
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    /* border: 2px solid #000000;
+    border-radius: 5px; */
+    background-color: #7FA15A;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #353f2e;
+    border-radius: 5px; 
+}
+
+/* button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+.login-button {
+    width: 100%;
+    padding: 10px ;
+    background-color: #95c972;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.signup-button {
+    width: 100%;
+    padding: 10px;
+    /* background-color: #a1c8f0; */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+/* Media Query for responsiveness */
+@media screen and (max-width: 600px) {
+    .login-container {
+        max-width: 90%;
+    }
+}
