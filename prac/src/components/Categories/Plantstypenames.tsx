@@ -6,7 +6,7 @@ type Props = {}
 const Plantstypenames = (props: Props) => {
   return (
     <>
-        <div className="hidden lg:block ">
+        <div className="max-md:hidden block ">
         <p className="font-bold pb-8 text-2xl ">Categories</p>
         <div className='flex flex-col gap-y-8'>
           <Plantstype count='8' >House Plants </Plantstype>

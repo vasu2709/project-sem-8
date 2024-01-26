@@ -794,43 +794,23 @@ export const contactDetails = [
     id: 1,
     name: "Phone",
     svg: Contactphone,
-    description: "+1 294 3925 3939",
+    description: "+91 1234567890",
       },
   {
     id: 2,
     name: "Address",
     svg: Contactaddress ,
-    description: "No 40 Baria Sreet 15/2 NewYork City, NY, United States.",
+    description: "LDRP ITR Ghandhinager Gujrat",
   },
   {
     id: 3,
     name: "Email",
     svg: Contactemail,
-    description: "contact@lustriauk.com",
-    subdesc:"contactlustria@gmal.com"  
+    description: "contact@plantopia.com",
+    subdesc:"contactplantopia@gmal.com"  
   },
 ]
 
-// export const contactDetails = [
-//   {
-//     id: 1,
-//     name: "Address",
-//     icon: Location,
-//     description: "43 Raymouth Rd. Baltemoer, London 3910",
-//   },
-//   {
-//     id: 2,
-//     name: "Email",
-//     icon: Email,
-//     description: "info@yourdomain.com",
-//   },
-//   {
-//     id: 3,
-//     name: "Phone-number",
-//     icon: Phone,
-//     description: "+1 294 3925 3939",
-//   },
-// ]
 
 //-----------------------------CART-------------------------------------//
 
